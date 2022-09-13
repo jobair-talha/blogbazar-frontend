@@ -1,0 +1,17 @@
+@import "./_mixins.scss";
+.contents {
+  padding: 10px;
+  img {
+    width: 20%;
+  }
+  .content {
+    margin-left: 15px;
+    h3 {
+      @include heading(26px, 600);
+      text-transform: capitalize;
+    }
+    p {
+      @include paragraph;
+    }
+  }
+}
